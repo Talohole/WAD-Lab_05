@@ -91,14 +91,26 @@ p {
 .dark-theme .form-input,
 .dark-theme .form-select,
 .dark-theme .form-textarea {
-  background-color: #121217;
+  background-color: #1a1b22;      
   color: #e6eef6;
-  border-color: #333846;
+  border: 1px solid #444a5a;      
+  border-radius: 6px;             
+  padding: 0.5rem;                
   box-shadow: none;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.dark-theme .form-input:focus,
+.dark-theme .form-select:focus,
+.dark-theme .form-textarea:focus {
+  border-color: #5b9fff;          
+  outline: none;
 }
 
 .dark-theme .table th {
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: rgba(255, 255, 255, 0.06); 
+  padding: 0.75rem;                            
+  text-align: left;                             
 }
 
 .dark-theme .code-editor {
