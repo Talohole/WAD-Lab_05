@@ -279,7 +279,7 @@ p {
 }
 
 .slider-value {
-  min-width: 52px;
+  min-width: 55px;
   text-align: right;
   font-weight: 700;
   color: var(--gray);
