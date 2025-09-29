@@ -494,26 +494,16 @@ input:checked + .slider-round:before {
 /* Badge Styles */
 .badge {
   display: inline-block;
-  padding: 4px 8px;
-  border-radius: 999px;
+  padding: 5px 10px;                
+  border-radius: 9999px;            
   font-size: 0.85rem;
   font-weight: 700;
   margin-left: auto;
+  transition: transform 0.2s ease;  
 }
 
-.badge-primary {
-  background: linear-gradient(90deg, var(--primary), var(--secondary));
-  color: #fff;
-}
-
-.badge-success {
-  background: #e6fffa;
-  color: #065f46;
-}
-
-.badge-warning {
-  background: #fff7ed;
-  color: #92400e;
+.badge:hover {
+  transform: scale(1.05);
 }
 
 /* Alert Styles */
